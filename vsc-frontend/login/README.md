@@ -1,4 +1,4 @@
-#login + operazioni bancarie
+**#login + operazioni bancarie **
 
 in questo progetto ho imparato a gestire gli elementi in pagina ed i valori immessi da essi, prendendoli e potendoli usare 
 per poter eseguire le mie operazioni sulle funzioni js.
