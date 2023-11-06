@@ -89,11 +89,9 @@ function pressBtnOut(){
     home_container.classList.add("hidden");
     login_container.classList.remove("hidden");
 }
-
-// costanti per lavorare all'algorito di calcolo per le operazioni 
+// inizializzo un saldo e lo valorizzo con 2000 
+// cosi ad ogni sessione ho un minimo dentro il mio saldo
 var saldo = 2000;
-var deposito = 0;
-var prelievo = 0;
 
 function mostraSaldo() {
     out_saldo.textContent = saldo;
