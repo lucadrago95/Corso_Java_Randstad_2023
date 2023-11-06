@@ -1,0 +1,171 @@
+.ingredients-list {
+    display: flex;
+}
+
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+
+
+/* Sfondo della pagina */
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    background-color: #f4f4f4;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+    height: 100vh;
+
+}
+
+
+
+/* Titolo dell'hamburgeria */
+
+#hamburger-name {
+
+    font-size: 24px;
+
+    margin-bottom: 20px;
+
+}
+
+
+
+/* Contenitore della lista degli ingredienti */
+
+.ingredients-list {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    gap: 20px;
+
+}
+
+
+
+/* Colonne degli ingredienti */
+
+.ingredient-col-1,
+
+.ingredient-col-2 {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 10px;
+
+}
+
+
+
+/* Etichette e checkbox degli ingredienti */
+
+label {
+
+    font-weight: bold;
+
+}
+
+
+
+.sum-check {
+
+    margin-top: 5px;
+
+}
+
+
+
+/* Campo del codice sconto */
+
+input[type="text"] {
+
+    margin: 20px 0;
+
+    padding: 10px;
+
+    width: 100%;
+
+}
+
+
+
+/* Bottone di calcolo */
+
+#calcoloTotale {
+
+    background-color: #f44336;
+
+    color: white;
+
+    padding: 10px 20px;
+
+    border: none;
+
+    cursor: pointer;
+
+    margin: 20px 0;
+
+}
+
+
+
+#calcoloTotale:hover {
+
+    background-color: greenyellow;
+
+}
+
+
+
+/* Totale del prezzo */
+
+.footer {
+
+    text-align: center;
+
+    margin-top: 20px;
+    
+
+}
+
+
+
+#price {
+
+    font-size: 20px;
+
+    font-weight: bold;
+
+    color: #f44336;
+
+}
+
+#sconto{
+    margin-top: 10px;
+}
+

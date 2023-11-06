@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <!-- titolo sitarello -->
+    <title>Ristorantino</title>
+  </head>
+  <body>
+    <!-- titolo hamburger -->
+    <div id="hamburger-name" class="hamburger-name"></div>
+
+    <!-- lista ingredienti -->
+    <div class="ingredients-list">
+      <!-- column 1 -->
+      <div class="ingredient-col-1">
+        <!-- ingr 1 -->
+        <div>
+          <label for="ingr-1">Ingrediente 1</label>
+          <input type="checkbox" name="ingr-1" id="ingr-1" value="0.99" />
+        </div>
+        <!-- ingr 2 -->
+        <div>
+          <label for="ingr-2">Ingrediente 2</label>
+          <input type="checkbox" name="ingr-2" id="ingr-2" value="1.99" />
+        </div>
+        <!-- ingr 3 -->
+        <div>
+          <label for="ingr-3">Ingrediente 3</label>
+          <input type="checkbox" name="ingr-3" id="ingr-3" value="2.99" />
+        </div>
+      </div>
+      <!-- column 4 -->
+      <div class="ingredient-col-2">
+        <div>
+          <label for="ingr-4">Ingrediente 4</label>
+          <input type="checkbox" name="ingr-4" id="ingr-4" value="0.99" />
+        </div>
+        <!-- ingr 5 -->
+        <div>
+          <label for="ingr-5">Ingrediente 5</label>
+          <input type="checkbox" name="ingr-5" id="ingr-5" value="3.99" />
+        </div>
+        <!-- ingr 6 -->
+        <div>
+          <label for="ingr-6">Ingrediente 6</label>
+          <input type="checkbox" name="ingr-6" id="ingr-6" value="9.99" />
+        </div>
+      </div>
+    </div>
+    <!--CODICE SCONTO-->
+    <div id="sconto">
+      <label for="sconto">Codice sconto</label>
+      <input type="text" name="discount" id="discount" placeholder="inserisci codice sconto">
+    </div>
+    <!--BOTTONE CALCOLO-->
+    <button id="calcoloTotale">CALCOLA PREZZO</button>
+    <div class="footer">
+      <label for="tot">TOTALE: </label>
+      <div id="price"></div>
+    </div>
+  </body>
+</html>

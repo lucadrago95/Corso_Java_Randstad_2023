@@ -1,0 +1,161 @@
+/* to do:
+    * aggiungere google font al sito
+*/
+
+body {
+    background-color: black;
+
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.button {
+    /* border: 3px solid white; */
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+#red {
+    width: 200px;
+    height: 150px;
+    background-color: red;
+    /* border-radius: 100px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#yellow {
+    width: 200px;
+    height: 150px;
+    background-color: yellow;
+    /* border-radius: 100px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#green {
+    width: 200px;
+    height: 150px;
+    background-color: green;
+    /* border-radius: 100px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* id richiamati dalle funzioni js */
+#colorOnDisplay {
+    border: 2px solid white;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    margin: 50px auto 0 auto;
+}
+
+div.paragrafo {
+    color: white;
+    text-align: justify;
+}
+
+.colorOnDisplayRED {
+    border: 2px solid white;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    margin: 50px auto 0 auto;
+    background-color: red;
+}
+
+.colorOnDisplayYELLOW {
+    border: 2px solid white;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    margin: 50px auto 0 auto;
+    background-color: yellow;
+}
+
+.colorOnDisplayGREEN {
+    border: 2px solid white;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    margin: 50px auto 0 auto;
+    background-color: green;
+}
+
+/* menu desktop */
+div.menuDesk nav ul {
+    color: white;
+    border: 3px solid white;
+    list-style: none;
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+
+}
+
+div.menuDesk nav ul li {
+    display: flexbox;
+    padding: 20px;
+}
+
+/* menu mobile */
+div.menuMobile nav ul {
+    color: white;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    /* padding: 5px; */
+    justify-content: center;
+    align-items: flex-end;
+    border: 1px solid white;
+}
+
+div.menuMobile nav ul li {
+    display: flexbox;
+    padding: 5px;
+}
+
+.menuButton {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.menuButtonClose {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.open-icon {
+    fill: #08e222;
+}
+
+.close-icon {
+    fill: #ff0000;
+}
+/* nasconde il menu desktop quando lo schermo è largo max 600px */
+@media only screen and (max-width: 600px) {
+    div.menuDesk {
+        display: none;
+    }
+}
+/* mostra il menu mobile quando la larghezza di uno schermo va dai 600px in giù  */
+@media only screen and (min-width: 600px) {
+    div.menuMobile {
+        display: none;
+    }
+
+}
+/* classe per nascondere oggetti */
+.hidden {
+    display: none;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <script defer src="/main.js"></script>
+    <title>Login</title>
+</head>
+
+<body>
+    <center>
+        <div id="login_container" class="login-container">
+            <h1>LOGIN</h1>
+            <div class="login">
+                <h2>PIN</h2>
+                <input type="text" name="login" id="login" placeholder="insert pin">
+            </div>
+        </div>
+    </center>
+    <!-- aggiungere alla classe home_container quest'altra classe hidden -->
+    <div id="home_container" class="home_container hidden">  
+        <div class="btn_menu">
+            <div class="btn_home" id="btn_home">HOME</div>
+            <div class="btn_deposito" id="btn_deposito">DEPOSITO</div>
+            <div class="btn_prelievo" id="btn_prelievo">PRELIEVO</div>
+            <div class="btn_out" id="btn_out">OUT</div>
+        </div>    
+        <div id="out_screen" class="out_screen">
+            <!-- saldo -->
+            <div id="saldo" class="saldo ">
+                <div id="out_tit" class="out_tit">SALDO ATTUALE</div>
+                <div id="out_saldo" class="out_saldo">qui va il prezzo che hai in banca</div>
+            </div>
+            <!-- deposito -->
+            <div id="deposito" class="deposito hidden">
+                <div id="out_tit" class="out_tit">INSERISCI CIFRA DA DEPOSITARE</div>
+                <input type="number" name="in_deposito" id="in_deposito" placeholder="deposita">
+            </div>
+            <!-- prelievo -->
+            <div id="prelievo" class="prelievo hidden">
+                <div id="out_tit" class="out_tit">INSERISCI CIFRA DA PRELEVARE</div>
+                <input type="number" name="in_preleva" id="in_preleva" placeholder="preleva">
+            </div>
+        </div>
+        <!-- uscita riporta al login -->
+        <!-- <div id="out_screen" class="out_screen">
+            <div id="out_tit" class="out_tit">SALDO ATTUALE</div>
+            <div id="out_saldo" class="out_saldo">qui va il prezzo che hai in banca</div>
+        </div> -->
+    </div>
+
+</body>
+
+</html>

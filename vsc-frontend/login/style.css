@@ -1,0 +1,223 @@
+/* login/index page */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+
+/* .container{
+    max-width: fit-content;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50%;
+} */
+.login {
+    color: #004AAD;
+    background-color: #D9D9D9;
+    border: 2px solid #D9D9D9;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 40px;
+    border-radius: 30px;
+    max-width: 200px;
+
+}
+
+div.login input {
+    border-style: none;
+    border-radius: 10px;
+    height: 50px;
+    text-align: center;
+}
+
+/* pagina home */
+div.home_container {
+    /* border: 2px solid white; */
+    padding: 20px;
+    margin-top: 10px;
+}
+
+/* nav bar */
+div.btn_menu {
+    color: white;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: x-large;
+}
+
+div.btn_home {
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    color: #004AAD;
+    border: 3.5px solid #004AAD;
+    padding: 5px;
+    border-radius: 230px;
+
+}
+
+div.btn_deposito {
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    color: #004AAD;
+    border: 3.5px solid #004AAD;
+    padding: 5px;
+    border-radius: 230px;
+}
+
+div.btn_prelievo {
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    color: #004AAD;
+    border: 3.5px solid #004AAD;
+    padding: 5px;
+    border-radius: 230px;
+}
+
+div.btn_out {
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    color: #004AAD;
+    border: 3.5px solid #004AAD;
+    padding: 5px;
+    border-radius: 230px;
+}
+
+/* screen output */
+.out_screen {
+    font-family: 'Roboto', sans-serif;
+    font-weight:600;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    color: #004AAD;
+    background-color: #D9D9D9;
+    /* border: 4px solid black; */
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    border-radius: 30px;
+    position: relative;
+    font-size: x-large;
+}
+/* saldo */
+.out_tit {
+    /* border: 2px solid white; */
+    margin: 0 auto;
+    position: absolute; 
+    top: 20px;
+}
+
+.out_saldo {
+    /* border: 2px solid white; */
+    margin: auto;
+}
+.saldo{
+    font-family: 'Roboto', sans-serif;
+    font-weight:600;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    color: #004AAD;
+    background-color: #D9D9D9;
+    /* border: 4px solid black; */
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    border-radius: 30px;
+    position: relative;
+    font-size: x-large;
+}
+
+/* deposito */
+.deposito{
+    font-family: 'Roboto', sans-serif;
+    font-weight:600;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    color: #004AAD;
+    background-color: #D9D9D9;
+    /* border: 4px solid black; */
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    border-radius: 30px;
+    position: relative;
+    font-size: x-large;
+    
+}
+div.deposito input {
+    border-style: none;
+    border-radius: 10px;
+    height: 50px;
+    text-align: center;
+}
+.prelievo{
+    font-family: 'Roboto', sans-serif;
+    font-weight:600;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    color: #004AAD;
+    background-color: #D9D9D9;
+    /* border: 4px solid black; */
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    border-radius: 30px;
+    position: relative;
+    font-size: x-large;
+    /* display: none; */
+}
+div.prelievo input{
+    border-style: none;
+    border-radius: 10px;
+    height: 50px;
+    text-align: center;
+}
+
+
+
+
+/* classe per nascondere elementi lasciare sempre in fondo
+    in quanto permette di essere letta correttamente e funzionare.
+*/
+.hidden {
+    display: none;
+}
