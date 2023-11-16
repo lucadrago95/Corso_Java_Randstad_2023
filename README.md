@@ -11,7 +11,7 @@ qui troverai tutti gli esercizi fatti in java base + un'altra sotto-cartella chi
 in questa cartella trovi i primi esercizi svolti con spring, sfruttando il layer MVC e le operazioni CRUD per la creazione, lettura, aggiornamento ed eliminazione dei dati memorizzati in memoria durante l'esecuzione del progetto.
 
 **SPRING + HIBERNATE:**
-qui trovi i primi esercizi fatti, collegando il mio model con le annotation mappandole come entità, in modo tale è possibile eseguire operazioni CRUD sul database
+qui trovi i primi esercizi fatti, collegando il mio model con le annotation mappandole come entità, in modo tale è possibile eseguire operazioni CRUD sul database.
 
 **VSC-FRONTEND:**
-in questa cartella si trovano i progetti realizzati principalmente in HTML, CSS e JavaScript ed in una sotto cartella chiamata Angular ci sono i progetti realizzato con Angular, TypeScript, HTML e SCSS
+in questa cartella si trovano i progetti realizzati principalmente in HTML, CSS e JavaScript + un'altra sotto-cartella chiamata "Angular" dove ci sono i progetti realizzati con Angular, TypeScript, HTML e SCSS.
