@@ -14,4 +14,4 @@ in questa cartella trovi i primi esercizi svolti con spring, sfruttando il layer
 qui trovi i primi esercizi fatti, collegando il mio model con le annotation mappandole come entità, in modo tale è possibile eseguire operazioni CRUD sul database
 
 **VSC-FRONTEND:**
-in questa cartella si trovano i progetti, realizzati principalmente con Angular, TypeScript, HTML e SCSS
+in questa cartella si trovano i progetti, realizzati principalmente HTML, CSS e JavaScript ed in una sotto cartella chiamata Angular ci sono i progetti realizzato con Angular, TypeScript, HTML e SCSS
