@@ -13,5 +13,5 @@ in questa cartella trovi i primi esercizi svolti con spring, sfruttando il layer
 **SPRING + HIBERNATE:**
 qui trovi i primi esercizi fatti, collegando il mio model con le annotation mappandole come entità, in modo tale è possibile eseguire operazioni CRUD sul database
 
-**vsc-frontend:**
+**VSC-FRONTEND:**
 in questa cartella si trovano i progetti, realizzati principalmente con Angular, TypeScript, HTML e SCSS
